@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ["chmod +x gradlew", "./gradlew clean build -x test"]
+
+[start]
+cmd = "java -jar build/libs/mscribe-0.0.1-SNAPSHOT.jar"
